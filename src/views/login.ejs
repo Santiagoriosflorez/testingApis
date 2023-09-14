@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/boostra.css">
+</head>
+<body>
+    <div class="col-md-4 offset-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h1>Iniciar Sesión</h1>
+            </div>
+            <div class="card-footer">
+                <form action="/authenticate" method="POST">
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico" class="form-control" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Contraseña" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
+                </form>
+                <form action="/add" method="POST">
+                    <button type="submit" class="btn btn-success">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
+
